@@ -334,3 +334,8 @@
 
 
 <router-outlet />
+
+@for(item of posts; track item) {
+  {{ item.title }}<br/>
+
+}
